@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+body {
+    background-color: #1C2648;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+
+}
+
+.team-addpoints {
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+
+.team {
+    width: 300px;
+}
+
+.teamname {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+
+
+}
+
+.teamscore {
+    color: #F94F6D;
+    background-color: black;
+    width: 250px;
+    text-align: center;
+    font-size: 120px;
+    margin: 60px auto;
+    padding: 20px 10px 10px 10px;
+    border-radius: 30px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.points-btn {
+    border: #9CADD6 solid;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #1C2648;
+    margin: 0px 13px;
+    color: #9CADD6;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+button {
+    text-align: center;
+    display: inline-block;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding: 1px 6px;
+}
+
+#newgame {
+    display: block;
+    border: #9CADD6 solid;
+    padding: 1em;
+    border-radius: 5px;
+    background-color: #9CADD6;
+    margin: 100px auto;
+    color: #9CADD6;
+    font-size: 20px;
+    font-weight: 1000;
+    text-align: center;
+    color: #1C2648;
+    border: solid white 2px;
+
+}
+
+.nokta1 {
+
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+
+
+}
+
+.nokta2 {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: white;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    position: absolute;
+    top: 300px;
+    left: 50%;
+
+}
